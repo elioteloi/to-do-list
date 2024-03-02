@@ -1,0 +1,81 @@
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CCCCCC; /* Light gray border */
+    border-radius: 4px;
+    background-color: #F5F5F5; /* Light gray background */
+    font-size: 16px;
+    color: #333333; /* Dark gray text */
+    box-sizing: border-box;
+}
+
+#button {
+    background-color: #87CEEB; /* Sky blue button background */
+    color: #FFFFFF; /* White button text */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#button:hover {
+    background-color: #5F9EA0; /* Lighter shade of blue on hover */
+}
+
+#todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Drop shadow for depth */
+}
+
+.todo-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #87CEEB; /* Sky blue button background */
+    color: #FFFFFF; /* White button text */
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+}
+
+.doneButton {
+    background-color: #5f97ed; /* Light coral button background */
+    color: #FFFFFF; /* White button text */
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.doneButton:hover {
+    background-color: #597ff0; /* Darker shade of red on hover */
+}
+
+.deleteButton {
+    background-color: #FF6347; /* Light coral button background */
+    color: #FFFFFF; /* White button text */
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+    background-color: #CD5C5C; /* Darker shade of red on hover */
+}
+    
